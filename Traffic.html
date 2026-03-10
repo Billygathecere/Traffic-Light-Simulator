@@ -16,12 +16,12 @@
             <i class="fas fa-walking"></i>
             What is the traffic light?
         </h1>
-        <div class="traffic-light">
-            <div class="light-red" onclick="pedestrianLight()">
+        <div class="traffic-light" id="traffic-light">
+            <div class="light-red" onclick="pedestrianLight(event)" >
             </div>
-            <div class="light-yellow" onclick="pedestrianLight()">
+            <div class="light-yellow" onclick="pedestrianLight(event)" >
             </div>
-            <div class="light-green" onclick="pedestrianLight()">
+            <div class="light-green" onclick="pedestrianLight(event)" >
             </div>
         </div>
         <div class="pedestrian-lights" id="pedestrian-lights">
@@ -52,5 +52,6 @@
         </p>
 
      </div>
+     <script src="Traffic.js"></script>
 </body>
 </html>
