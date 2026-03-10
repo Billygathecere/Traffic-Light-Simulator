@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="Traffic.css">
+    <!-- Fontawesome link -->
+     <script src="https://kit.fontawesome.com/1d68a8fcd4.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic_Lights</title>
+</head>
+<body>
+    <!-- Pedestrian side -->
+    <div class="light-checker">
+        <h1>
+            <i class="fas fa-walking"></i>
+            What is the traffic light?
+        </h1>
+        <div class="traffic-light">
+            <div class="light-red" onclick="pedestrianLight()">
+            </div>
+            <div class="light-yellow" onclick="pedestrianLight()">
+            </div>
+            <div class="light-green" onclick="pedestrianLight()">
+            </div>
+        </div>
+        <div class="pedestrian-lights" id="pedestrian-lights">
+        </div>
+
+        <p id="alertMessage">
+        </p>
+
+    </div>
+
+    <!-- Vehicles  side -->
+     <div class="traffic-checker">
+        <h1>
+            <i class="fas fa-car"></i>
+            What is the traffic light?
+        </h1>
+        <div class="traffic-light">
+            <div class="light-red" onclick="carLight()">
+            </div>
+            <div class="light-yellow" onclick="carLight()">
+            </div>
+            <div class="light-green" onclick="carLight()">
+            </div>
+        </div>
+        <div class="car-lights" id="car-lights"></div>
+
+        <p id="alertNotification">
+        </p>
+
+     </div>
+</body>
+</html>

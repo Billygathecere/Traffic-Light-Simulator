@@ -1,0 +1,117 @@
+body{
+    background-image: url(./Images/Backgroundimage.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Pedestrian side */
+.light-checker{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    width: 60vh;
+    height: 70vh;
+}
+
+.light-checker h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.light-checker i{
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+
+.light-checker.traffic-light{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.light-red{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.light-yellow{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin: 10px 10px;
+}
+
+.light-green{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.pedestrian-lights{
+    margin: 50px 390px;
+}
+/* Car side */
+.traffic-checker{
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 1.5rem;
+    width: 60vh;
+    height: 70vh;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.traffic-checker i{
+    color: white;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+
+.traffic-checker .traffic-lights{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.traffic-checker h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.traffic-checker i{
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    color: white;
+} 
+
+.car-lights{
+    margin: 50px 390px;
+}
+
