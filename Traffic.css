@@ -113,7 +113,7 @@ body{
 } 
 
 .car-lights{
-    margin: 50px 390px;
+    margin: -150px 290px;
 }
 
 /* Alert message */
@@ -143,5 +143,34 @@ body{
 }
 
 .alertMessage p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Alert Notification */
+.alertNotification{
+    width: 300px;
+    border-radius: 20px;
+    
+    margin: 90px 90px 90px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: white solid 3px;
+}
+
+.alertNotification::before{
+    content: ""; /* Create a pseudo-element to display the triangle */
+    position: absolute;
+    top: 24%; /* Position the triangle at the top of the alert message */
+    left: -11px; /* Position the triangle in the middle of the alert message */
+    transform: translateX(-50%); /* Center the triangle horizontally */
+    border-top: 10px solid transparent; /* Make the triangle transparent */
+    border-left: 10px solid transparent; /* Make the triangle transparent */
+    border-right: 10px solid white; /* Make the triangle transparent */
+    border-bottom: 10px solid transparent; /* Make the triangle white */
+}
+
+.alertNotification p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

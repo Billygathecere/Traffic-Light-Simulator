@@ -40,17 +40,19 @@
             What is the traffic light?
         </h1>
         <div class="traffic-light">
-            <div class="light-red" onclick="carLight()">
+            <div class="light-red" onclick="carLight(event)">
             </div>
-            <div class="light-yellow" onclick="carLight()">
+            <div class="light-yellow" onclick="carLight(event)">
             </div>
-            <div class="light-green" onclick="carLight()">
+            <div class="light-green" onclick="carLight(event)">
             </div>
         </div>
         <div class="car-lights" id="car-lights"></div>
-
+        
+        <div class="alertNotification">
         <p id="alertNotification">
         </p>
+        </div>
 
      </div>
      <script src="Traffic.js"></script>
