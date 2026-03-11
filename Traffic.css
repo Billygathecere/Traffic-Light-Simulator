@@ -71,9 +71,6 @@ body{
     margin: -150px auto;
 }
 
-#alertMessage{
-    margin: 90px 90px 90px 200px;
-}
 /* Car side */
 .traffic-checker{
     background-color: rgba(0, 0, 0, 0.5);
@@ -119,3 +116,28 @@ body{
     margin: 50px 390px;
 }
 
+/* Alert message */
+.alertMessage{
+    width: 300px;
+    border-radius: 20px;
+    
+    margin: 90px 90px 90px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: white solid 3px;
+}
+
+.alertMessage::before{
+    content: ""; /* Create a pseudo-element to display the triangle */
+    position: absolute;
+    top: 30%; /* Position the triangle at the top of the alert message */
+    left: -11px; /* Position the triangle in the middle of the alert message */
+    transform: translateX(-50%); /* Center the triangle horizontally */
+    border-top: 10px solid transparent; /* Make the triangle transparent */
+    border-left: 10px solid transparent; /* Make the triangle transparent */
+    border-right: 10px solid white; /* Make the triangle transparent */
+    border-bottom: 10px solid transparent; /* Make the triangle white */
+
+}
