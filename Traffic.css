@@ -132,7 +132,7 @@ body{
 .alertMessage::before{
     content: ""; /* Create a pseudo-element to display the triangle */
     position: absolute;
-    top: 30%; /* Position the triangle at the top of the alert message */
+    top: 24%; /* Position the triangle at the top of the alert message */
     left: -11px; /* Position the triangle in the middle of the alert message */
     transform: translateX(-50%); /* Center the triangle horizontally */
     border-top: 10px solid transparent; /* Make the triangle transparent */
