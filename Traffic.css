@@ -68,7 +68,7 @@ body{
 }
 
 .pedestrian-lights{
-    margin: 50px 390px;
+    margin: -150px auto;
 }
 
 #alertMessage{
