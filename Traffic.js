@@ -13,7 +13,6 @@ function pedestrianLight(event) {
 
         //Change the font color to red, font family to Gill Sans and font size to 1.5rem     
         alertMessage.style.color = "red";
-        alertMessage.style.fontFamily = "Gill Sans";
         alertMessage.style.fontSize = "1.5rem";
 
         // Introduces an image of the traffic lights to show red lights
@@ -41,7 +40,6 @@ function pedestrianLight(event) {
 
         //Change the font color to yellow, font family to Gill Sans and font size to 1.5rem     
         alertMessage.style.color = "yellow";
-        alertMessage.style.fontFamily = "Gill Sans";
         alertMessage.style.fontSize = "1.5rem";
         
         // Introduces an image of the traffic lights to show yellow lights
@@ -72,7 +70,6 @@ function pedestrianLight(event) {
 
         //Change the font color to green, font family to Gill Sans and font size to 1.5rem     
         alertMessage.style.color = "green";
-        alertMessage.style.fontFamily = "Gill Sans";
         alertMessage.style.fontSize = "1.5rem";
 
 
